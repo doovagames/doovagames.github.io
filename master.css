@@ -1,0 +1,45 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+.blue {
+    color: blue;
+}
+.red {
+    color: red;
+}
+.purple {
+    color: darkorchid;
+}
+.yellow {
+    color: yellow;
+    border: black;
+    border-style: solid;
+    background-color: darkorchid;
+    width: 20%;
+    margin: auto;
+}
+
+a {
+    margin: 20px;
+}
+
+body {
+    background-color:#FFD6E0;
+    text-align: center;
+}
+
+hr {
+    width: 50%;
+    color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
