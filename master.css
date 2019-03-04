@@ -1,45 +1,64 @@
+@font-face {
+    font-family: Medel;
+    src: url("Medel.ttf");
+}
+
 * {
-    font-family: 'Oswald', sans-serif;
+    font-family: Medel, sans-serif;
     font-size: 24px;
 }
 
-.blue {
-    color: blue;
-}
 .red {
-    color: red;
+    color: deepskyblue;
+    margin: 5px;
+    font-size: 21px;
 }
 .purple {
     color: darkorchid;
 }
 .yellow {
-    color: yellow;
-    border: black;
+    color: deepskyblue;
+    border: white;
     border-style: solid;
     background-color: darkorchid;
     width: 20%;
     margin: auto;
 }
 
-a {
-    margin: 20px;
-}
-
 body {
-    background-color:#FFD6E0;
+    background-color:#d7e4ff;
     text-align: center;
+    margin: auto;
+    max-width: 800px;
 }
 
 hr {
     width: 50%;
-    color: black;
+    color: white;
     border-width: 2px;
     border-style: solid;
 }
 
+.space {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
+    position: fixed;
+    background-color: darkorchid;
+    border-top: 2px solid white;
+}
+
+.slideshowVisual
+{
+    display: none;
+}
+
+.slideshows
+{
+    max-width: 500px;
 }
