@@ -9,7 +9,7 @@
 }
 
 .red {
-    color: deepskyblue;
+    color: darkorchid;
     margin: 5px;
     font-size: 21px;
 }
@@ -17,10 +17,9 @@
     color: darkorchid;
 }
 .yellow {
-    color: deepskyblue;
-    border: white;
-    border-style: solid;
-    background-color: darkorchid;
+    color: darkorchid;
+    border: solid white;
+    background-color: #d7e4ff;
     width: 20%;
     margin: auto;
 }
@@ -49,7 +48,7 @@ footer {
     bottom: 0;
     width: 100%;
     position: fixed;
-    background-color: darkorchid;
+    background-color: #d7e4ff;
     border-top: 2px solid white;
 }
 
@@ -61,4 +60,31 @@ footer {
 .slideshows
 {
     max-width: 500px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px auto auto;
+    width: 76.999%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+}
+
+li a {
+    display: block;
+    padding: 8px 16px;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
 }
